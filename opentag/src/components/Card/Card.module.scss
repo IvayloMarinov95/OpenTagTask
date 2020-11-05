@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin: 50px 20px 0 20px;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.form {
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.row {
+  margin-left: 10px;
+}
