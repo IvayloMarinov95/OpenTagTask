@@ -25,6 +25,7 @@ const App = () => {
         changeHandler={changeHandler}
         formStyles={styles.form}
         input={input}
+        placeholder="Add new card"
       />
       <div className={styles.cards}>
         {titles.map((title, index) => (

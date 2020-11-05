@@ -35,6 +35,7 @@ const Card: React.FC<Props> = ({ title }) => {
           changeHandler={changeHandler}
           formStyles={styles.form}
           input={cardInput}
+          placeholder="Add new row"
         />
       </div>
     </div>
